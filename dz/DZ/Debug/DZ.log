@@ -1,0 +1,80 @@
+﻿Сборка начата 06.05.2016 19:22:58.
+     1>Проект "c:\Users\АНДРЕЙ\documents\visual studio 2015\Projects\DZ\DZ\DZ.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         E:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\DZ.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         E:\visual studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\DZ.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt DZ.cpp
+         DZ.cpp
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(16): error C2433: podr: "friend" не разрешается для объявлений данных
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(16): error C4430: отсутствует спецификатор типа - предполагается int. Примечание. C++ не поддерживает int по умолчанию
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(17): error C2061: синтаксическая ошибка: идентификатор "podr"
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(22): error C2061: синтаксическая ошибка: идентификатор "podr"
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(26): error C2061: синтаксическая ошибка: идентификатор "podr"
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(44): error C2059: синтаксическая ошибка: >
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(44): error C2976: std::vector: слишком мало аргументов шаблон
+         e:\visual studio\vc\include\vector(678): note:  см. объявление "std::vector"
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(18): error C2512: std::vector: нет подходящего конструктора по умолчанию
+         e:\visual studio\vc\include\vector(678): note:  см. объявление "std::vector"
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(20): error C2065: q: необъявленный идентификатор
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(24): error C2065: q: необъявленный идентификатор
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(29): error C2662: _Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type std::vector<_Ty,_Alloc>::size(void) noexcept const: невозможно преобразовать указатель "this" из "std::vector" в "const std::vector<_Ty,_Alloc> &"
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(29): note: Причина: невозможно преобразовать "std::vector" в "const std::vector<_Ty,_Alloc>"
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(29): note: Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(31): error C2678: бинарный "[": не найден оператор, принимающий левый операнд типа "std::vector" (или приемлемое преобразование отсутствует)
+         e:\visual studio\vc\include\vector(1227): note: может быть "_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type)"
+         e:\visual studio\vc\include\vector(1211): note: или       "_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::const_reference std::vector<_Ty,_Alloc>::operator [](_Vector_alloc<std::_Vec_base_types<_Ty,_Alloc_types::_Alloc>>::size_type) const"
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(31): note: при попытке сопоставить список аргументов "(std::vector, int)"
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(31): error C2065: q: необъявленный идентификатор
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(35): error C2663: std::vector<_Ty,_Alloc>::begin: для 2 перегрузок нет допустимого преобразования для указателя "this"
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(35): error C2663: std::vector<_Ty,_Alloc>::erase: для 2 перегрузок нет допустимого преобразования для указателя "this"
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(40): error C2662: void std::vector<_Ty,_Alloc>::clear(void) noexcept: невозможно преобразовать указатель "this" из "std::vector" в "std::vector<_Ty,_Alloc> &"
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(40): note: Причина: невозможно преобразовать "std::vector" в "std::vector<_Ty,_Alloc>"
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(40): note: Для преобразования требуется второй оператор пользовательского преобразования или конструктор
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(58): error C2661: rab::rab: нет перегруженной функции, принимающей 2 аргументов
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(63): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(65): error C2248: rab::name: невозможно обратиться к private член, объявленному в классе "rab"
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(43): note:  см. объявление "rab::name"
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(14): note:  см. объявление "rab"
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(75): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(82): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(84): error C2248: rab::name: невозможно обратиться к private член, объявленному в классе "rab"
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(43): note:  см. объявление "rab::name"
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(14): note:  см. объявление "rab"
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(97): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(113): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(114): error C2248: rab::name: невозможно обратиться к private член, объявленному в классе "rab"
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(43): note:  см. объявление "rab::name"
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(14): note:  см. объявление "rab"
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(116): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(136): error C2146: синтаксическая ошибка: отсутствие ";" перед идентификатором "komp"
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(136): error C3861: komp: идентификатор не найден
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(149): error C2065: komp: необъявленный идентификатор
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(149): error C2228: выражение слева от ".searchrab" должно представлять класс, структуру или объединение
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(149): note: тип: unknown-type
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(152): error C2065: komp: необъявленный идентификатор
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(152): error C2228: выражение слева от ".searchpodr" должно представлять класс, структуру или объединение
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(152): note: тип: unknown-type
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(153): error C2065: komp: необъявленный идентификатор
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(153): error C2228: выражение слева от ".searchpodr" должно представлять класс, структуру или объединение
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(153): note: тип: unknown-type
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(153): error C2227: выражение слева от "->addrab" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(162): error C2065: komp: необъявленный идентификатор
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(162): error C2228: выражение слева от ".searchpodr" должно представлять класс, структуру или объединение
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(162): note: тип: unknown-type
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(162): error C2227: выражение слева от "->addpodr" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(170): error C2065: komp: необъявленный идентификатор
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(170): error C2228: выражение слева от ".show" должно представлять класс, структуру или объединение
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(170): note: тип: unknown-type
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(180): error C2065: komp: необъявленный идентификатор
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(180): error C2228: выражение слева от ".searchpodr" должно представлять класс, структуру или объединение
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(180): note: тип: unknown-type
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(180): error C2227: выражение слева от "->dellrab" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(187): error C2065: komp: необъявленный идентификатор
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(187): error C2228: выражение слева от ".searchpodr" должно представлять класс, структуру или объединение
+         c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(187): note: тип: unknown-type
+     1>c:\users\андрей\documents\visual studio 2015\projects\dz\dz\dz.cpp(187): error C2227: выражение слева от "->dellpodr" должно указывать на тип класса, структуры или объединения либо на универсальный тип
+     1>Сборка проекта "c:\Users\АНДРЕЙ\documents\visual studio 2015\Projects\DZ\DZ\DZ.vcxproj" завершена (целевые объекты Build) с ошибкой.
+
+Ошибка сборки.
+
+Затраченное время: 00:00:06.19
